@@ -1,0 +1,209 @@
+				Module 4, Activity 5
+
+a. 4 3 2 1 0 9 8 7 6 5
+   
+	push 0
+	push 1
+	push 2
+	push 3
+	push 4
+	pop 4 --> 4
+	pop 3 --> 3
+	pop 2 --> 2
+	pop 1 --> 1
+	pop 0 --> 0
+	push 5
+	push 6
+	push 7
+	push 8
+	push 9
+	pop 9 --> 9
+	pop 8 --> 8
+	pop 7 --> 7
+	pop 6 --> 6
+	pop 5 --> 5
+
+This sequence occurs.
+--------------------------------------------------------------
+
+b. 4 6 8 7 5 3 2 9 0 1
+
+	push 0
+	push 1
+	push 2
+	push 3
+	push 4
+	pop 4 --> 4
+	push 5
+	push 6
+	pop 6 --> 6
+	push 7
+	push 8
+	pop 8 --> 8
+	pop 7 --> 7
+	pop 5 --> 5
+	pop 3 --> 3
+	pop 2 --> 2
+	push 9
+	pop 9 --> 9
+	
+This sequence could not occur.
+---------------------------------------------------------------
+
+c. 2 5 6 7 4 8 9 3 1 0
+
+	push 0
+	push 1
+	push 2
+	pop 2 --> 2
+	push 4
+	push 5
+	pop 5 --> 5
+	push 6
+	pop 6 --> 6
+	push 7
+	pop 7 --> 7
+	pop 4 --> 4
+	push 8
+	pop 8 --> 8
+	push 9
+	pop 9 --> 9
+	push 3
+	pop 1 --> 1
+	pop 0 --> 0
+
+This sequence occurs.
+---------------------------------------------------------------	
+
+d. 4 3 2 1 0 5 6 7 8 9
+
+	push 0
+	push 1
+	push 2
+	push 3
+	push 4
+	pop 4 --> 4
+	pop 3 --> 3
+	pop 2 --> 2
+	pop 1 --> 1
+	pop 0 --> 0
+	push 5
+	pop 5 --> 5
+	push 6
+	pop 6 --> 6 
+	push 7
+	pop 7 --> 7
+	push 8
+	pop 8 --> 8
+	push 9
+	pop 9 --> 9
+
+This sequence occurs.
+-----------------------------------------------------------------
+
+e. 1 2 3 4 5 6 9 8 7 0
+	
+	push 0
+	push 1
+	pop 1 --> 1
+	push 2
+	pop 2 --> 2
+	push 3
+	pop 3 --> 3
+	push 4
+	pop 4 --> 4
+	push 5
+	pop 5 --> 5
+	push 6
+	pop 6 --> 6
+	push 7
+	push 8
+	push 9
+	pop 9 --> 9
+	pop 8 --> 8
+	pop 7 --> 7
+	pop 0 --> 0
+
+This sequence occurs.
+------------------------------------------------------------------
+
+f. 0 4 6 5 3 8 1 7 2 9
+
+	push 0
+	pop 0 --> 0
+	push 1
+	push 2
+	push 3
+	push 4
+	pop 4 --> 4
+	push 5
+	push 6
+	pop 6 --> 6
+	pop 5 --> 5
+	pop 3 --> 3
+	push 7
+	push 8
+	pop 8 --> 8
+	
+
+This sequence does not occur.
+--------------------------------------------------------------------
+
+g. 1 4 7 9 8 6 5 3 0 2
+
+	push 0
+	push 1
+	pop 1 --> 1
+	push 2
+	push 3
+	push 4
+	pop 4 --> 4
+	push 5
+	push 6
+	push 7
+	pop 7 --> 7
+	push 8
+	push 9
+	pop 9 --> 9
+	pop 8 --> 8
+	pop 6 --> 6
+	pop 5 --> 5
+	pop 3 --> 3
+
+This sequence does not occur.
+-----------------------------------------------------------------------
+
+h. 2 1 4 3 6 5 8 7 9 0
+
+	push 0
+	push 1
+	push 2
+	pop 2 --> 2
+	pop 1 --> 1
+	push 3
+	push 4
+	pop 4 --> 4
+	pop 3 --> 3
+	push 5
+	push 6
+	pop 6 --> 6
+	pop 5 --> 5
+	push 7
+	push 8
+	pop 8 --> 8
+	pop 7 --> 7
+	push 9
+	pop 9 --> 9
+	pop 0 --> 0
+
+This sequence occurs.
+----------------------------------------------------------------------
+
+
+	
+	 
+	
+	
+
+
+

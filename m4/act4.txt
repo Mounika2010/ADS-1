@@ -1,0 +1,19 @@
+
+				Module 4 - Activity 4
+
+Given input :  it was - the best - of times - - - it was - the - - 
+
+1.	 it was -
+	 it 
+
+2.	the best -
+	it the 
+
+3.	of times - - -
+	it
+
+4.	it was -
+	it it
+
+5.	the - -
+	it

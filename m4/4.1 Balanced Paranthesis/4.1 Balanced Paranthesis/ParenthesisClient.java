@@ -16,7 +16,7 @@ public class ParenthesisClient {
 					if (stack.isEmpty()) {
 						return false;
 					}
-					if (ch == '}' ) {
+					if (ch == '}' && stack.top() == '{') {
 						stack.pop();
 					} else if (ch == ']' && stack.top() == '[') {
 						stack.pop();

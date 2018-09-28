@@ -46,6 +46,8 @@ public class Stack <E> {
 	}
 
 	public E top() {
+		if (first == null)
+			throw new NoSuchElementException("Stack is empty");
 		return first.data;
 	}
 
@@ -69,8 +71,8 @@ public class Stack <E> {
 					System.out.println(ex.getMessage());
 				}
 				break;
-				case "top":
-				  stack.top();
+				// case "top":
+				// stack.top();
 				case "display":
 				System.out.println(stack);
 				default:

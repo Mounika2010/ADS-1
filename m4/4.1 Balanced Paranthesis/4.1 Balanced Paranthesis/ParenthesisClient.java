@@ -8,7 +8,7 @@ public class ParenthesisClient {
      *
      * @param      args       The arguments
      *
-     * @throws     Exception  { exception_description }
+     * @throws     Exception  NoSuchElementException
      */
     public static void main(final String[] args) throws Exception {
         Scanner scan = new Scanner(System.in);

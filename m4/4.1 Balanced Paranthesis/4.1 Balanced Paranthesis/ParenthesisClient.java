@@ -24,9 +24,9 @@ public class ParenthesisClient {
 				}
 			}
 			if (j == line.length() && stack.isEmpty())
-				System.out.println("Yes");
+				System.out.println("YES");
 			else
-				System.out.println("No");
+				System.out.println("NO");
 
 		}
 	}

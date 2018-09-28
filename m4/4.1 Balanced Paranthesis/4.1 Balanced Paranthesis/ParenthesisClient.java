@@ -1,4 +1,7 @@
-import java.util.*;
+import java.util.Scanner;
+/**
+ * Class for parenthesis client.
+ */
 public class ParenthesisClient {
     /**
      * Main function for parenthesis Client.

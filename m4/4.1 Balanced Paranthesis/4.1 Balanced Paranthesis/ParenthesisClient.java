@@ -1,11 +1,11 @@
 import java.util.*;
 public class ParenthesisClient {
-	public static boolean main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		Scanner scan = new Scanner(System.in);
 		int testcases = Integer.parseInt(scan.nextLine());
-		Stack<Character> stack = new Stack<Character>();
 		for (int i = 0; i < testcases; i++) {
 			String line = scan.nextLine();
+			Stack<Character> stack = new Stack<Character>();
 			int j = 0;
 			for (j = 0; j < line.length(); j++) {
 				char ch = line.charAt(j);
@@ -13,21 +13,21 @@ public class ParenthesisClient {
 					stack.push(ch);
 				
 				} else {
-					if (stack.isEmpty()) {
-						return false;
-					}
-					if (ch == '}' && stack.top() == '{') {
+					if (stack.isEmpty() == false && ch == ')' && stack.top() == '(')
 						stack.pop();
-					} else if (ch == ']' && stack.top() == '[') {
+					else if (stack.isEmpty() == false && ch == ']' && stack.top() == '[')
 						stack.pop();
-
-					} else {
-						return false;
-					}
+					else if (stack.isEmpty() == false && ch == '}' && stack.top() == '{')
+						stack.pop();
+					else 
+						break;
 				}
-				
 			}
-			return stack.isEmpty();
+			if (j == line.length() && stack.isEmpty())
+				System.out.println("Yes");
+			else
+				System.out.println("No");
+
 		}
 	}
 }

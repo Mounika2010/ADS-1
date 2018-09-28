@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 /**
  * Class for solution.
  */
@@ -11,46 +10,53 @@ public final class Solution {
         //constructor.
     }
     /**
-     * main.
+     * main function.
      *
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
+        int m = sc.nextInt();
         int n = sc.nextInt();
-        int[] a = new int[n];
-        for (int i = 0; i < n; i++) {
-            a[i] = sc.nextInt();
-        }
-        int count = 0;
-        /*for(int i = 0; i < n; i++){
-            for(int j = i + 1; j < n; j++){
-                for(int k = j + 1; k < n; k++){
-                    if(a[i]+a[j]+a[k] == 0){
-                        count ++;
-                    }
-                }
+        sc.nextLine();
+        int[] first = new int[m];
+        int[] second = new int[n];
+        int k = 0, i = 0, j = 0;
+        String str = "";
+        String[] s;
+        if (m != 0) {
+            s = sc.nextLine().split(",");
+            for (String each : s) {
+                first[k++] = Integer.parseInt(each);
             }
-        }*/
-        int j, k;
-        Arrays.sort(a);
-        //System.out.println(Arrays.toString(a));
-        for (int i = 0; i < n - 2; i++) {
-            j = i + 1;
-            k = n - 1;
-            //System.out.println(j+ "           " + k);
-            while (j < k) {
-                if (a[i] + a[j] + a[k] == 0) {
-                    count++;
-                    j++;
-                    k--;
-                } else if (a[i] + a[j] + a[k] < 0) {
-                    j++;
-                } else {
-                    k--;
-                }
+        } else {
+            sc.nextLine();
+        }
+        k = 0;
+        if (n != 0) {
+            s = sc.nextLine().split(",");
+            for (String each : s) {
+                second[k++] = Integer.parseInt(each);
+            }
+        } else {
+            sc.nextLine();
+        }
+        while (i < m && j < n) {
+            if (first[i] < second[j]) {
+                str += Integer.toString(first[i++]) + ",";
+            } else if (first[i] > second[j]) {
+                str += Integer.toString(second[j++]) + ",";
+            } else {
+                str += Integer.toString(second[j++]) + ",";
+                i++;
             }
         }
-        System.out.println(count);
+        while (i < m) {
+            str += Integer.toString(first[i++]) + ",";
+        }
+        while (j < n) {
+            str += Integer.toString(second[j++]) + ",";
+        }
+        System.out.println(str.substring(0, str.length() - 1));
     }
 }

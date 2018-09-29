@@ -117,14 +117,9 @@ class LinkedList {
         return item;
 
 }
-	public void List() {
-        Node firstnode = start;
-        while (firstnode != null) {
-            System.out.print(firstnode.data + " ");
-            firstnode = firstnode.next;
-	}
+
 }
-}
+
 
 class AddLargeNumbers {
     

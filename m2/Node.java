@@ -29,7 +29,7 @@ class LinkedList {
 	private Node start;
 	private int size;
 
-	linkedlist() { 
+	LinkedList() { 
 		this.start = null;
 		this.size = 0;
 	}

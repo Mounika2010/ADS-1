@@ -18,12 +18,12 @@ public class Solution {
                 ll.pushRight(Integer.parseInt(line[1]));
                 System.out.println(ll);
                 break;
-                case "removeLeft":
-                ll.removeLeft();
+                case "popLeft":
+                ll.popLeft();
                 System.out.println(ll);
                 break;
-                case "removeRight":
-                ll.removeRight();
+                case "popRight":
+                ll.popRight();
                 System.out.println(ll);
                 break;
                 default:

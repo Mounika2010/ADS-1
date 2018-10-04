@@ -6,9 +6,9 @@ public class ParenthesisClient {
     /**
      * Main function for parenthesis Client.
      *
-     * @param      args       The arguments
+     * @param      args       The arguments.
      *
-     * @throws     Exception  NoSuchElementException
+     * @throws     Exception  NoSuchElementException.
      */
     public static void main(final String[] args) throws Exception {
         Scanner scan = new Scanner(System.in);
@@ -21,7 +21,6 @@ public class ParenthesisClient {
                 char ch = line.charAt(j);
                 if (ch == '(' || ch == '[' || ch == '{') {
                     stack.push(ch);
-                
                 } else {
                     if (stack.isEmpty() == false && ch == ')' && stack.top() == '(') {
                         stack.pop();

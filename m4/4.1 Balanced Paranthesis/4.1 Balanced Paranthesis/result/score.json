@@ -1,1 +1,1 @@
-{"problem_id": "ads1_m4_a1", "user_id": "Mounika2010", "score": "4/4", "check_style_score": "0/1"}
+{"version": "1", "message": "ERROR: Hidden Testcases server unreachable.", "problem_id": "ads1_m4_a1", "user_id": "Mounika2010", "score": {"sample": {"0": {"execution_time": 0.5930643081665039, "passed": true}, "1": {"execution_time": 0.48279833793640137, "passed": true}, "2": {"execution_time": 0.3919942378997803, "passed": true}, "3": {"execution_time": 0.293271541595459, "passed": true}}}, "check_style_score": "0/1"}

@@ -1,52 +1,102 @@
+/**
+ * Class for team.
+ */
 class Team implements Comparable<Team> {
-	String teamName;
-	int wins;
-	int losses;
-	int draws;
-
-	Team(String teamName, int wins, int losses, int draws) {
-		this.teamName = teamName;
+	String teamname;
+	int wins, losses, draws;
+	/**
+	 * Constructs the object for Team class.
+	 *
+	 * @param      teamname  The teamname
+	 * @param      wins      The wins
+	 * @param      losses    The losses
+	 * @param      draws     The draws
+	 */
+	Team(String teamname, int wins, int losses, int draws) {
+		this.teamname = teamname;
 		this.wins = wins;
 		this.losses = losses;
 		this.draws = draws;
 	}
-
-	public String getTeamName() {
-		return this.teamName;
+	/**
+	 * Gets the teamname.
+	 *
+	 * @return     The teamname.
+	 */
+	public String getTeamname() {
+          return this.teamname;
 	}
-
+	/**
+	 * Gets the wins.
+	 *
+	 * @return     The wins.
+	 */
 	public int getWins() {
 		return this.wins;
 	}
-
+	/**
+	 * Gets the losses.
+	 *
+	 * @return     The losses.
+	 */
 	public int getLosses() {
 		return this.losses;
 	}
-
+	/**
+	 * Gets the draws.
+	 *
+	 * @return     The draws.
+	 */
 	public int getDraws() {
 		return this.draws;
 	}
-
-	public void setTeamName() {
-		this.teamName = teamName;
+	/**
+	 * Sets the teamname.
+	 *
+	 * @param      teamname  The teamname
+	 */
+	public void setTeamname(String teamname) {
+		this.teamname = teamname;
 	}
-
-	public void setWins() {
+	/**
+	 * Sets the wins.
+	 *
+	 * @param      wins  The wins
+	 */
+	public void setWins(int wins) {
 		this.wins = wins;
 	}
-
-	public void setLosses() {
+	/**
+	 * Sets the losses.
+	 *
+	 * @param      losses  The losses
+	 */
+	public void setLosses(int losses) {
 		this.losses = losses;
 	}
-
-	public void setDraws() {
+	/**
+	 * Sets the draws.
+	 *
+	 * @param      draws  The draws
+	 */
+	public void setDraws(int draws) {
 		this.draws = draws;
 	}
-
+	/**
+	 * Returns a string representation of the object.
+	 *
+	 * @return     String representation of the object.
+	 */
 	public String toString() {
-		return this.teamName;		
+		return this.teamname;
 	}
-
+	/**
+	 * { compares two objects in given condition }
+	 *
+	 * @param      that  The that
+	 *
+	 * @return     { -1 if condition statifies else returns 1 }
+	 */
 	public int compareTo(Team that) {
 		if(this.wins > that.wins) return -1;
 		if(this.wins < that.wins) return 1;
@@ -56,6 +106,5 @@ class Team implements Comparable<Team> {
 		if(this.draws < that.draws) return 1;
 		return 0;
 	}
-
+    
 }
- 

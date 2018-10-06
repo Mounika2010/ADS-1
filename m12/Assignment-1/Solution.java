@@ -22,16 +22,16 @@ public final class Solution {
 	 * @param      args  The arguments
 	 */
 	public static void main(final String[] args) {
-		Scanner s = new Scanner(System.in);
-        int qualified = s.nextInt();
-        int vacancies = s.nextInt();
-        int unreserved = s.nextInt();
-        int bcvacancies = s.nextInt();
-        int scvacancies = s.nextInt();
-        int stvacancies = s.nextInt();
-        while (s.hasNext()) {
-            s.nextLine();
+        Scanner scan = new Scanner(System.in);
+        int qualified = scan.nextInt();
+        int vacancies = scan.nextInt();
+        int unreserved = scan.nextInt();
+        int bc = scan.nextInt();
+        int sc = scan.nextInt();
+        int st = scan.nextInt();
+        while (scan.hasNext()) {
+            scan.nextLine();
         }
-	}
 
+	}
 }

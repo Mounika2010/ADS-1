@@ -1,0 +1,13 @@
+Yes, an array that is sorted in ascending order can be a min-oriented heap as there are no exchange operations performed when the array is in sorted order.
+
+Example-
+
+[1, 2, 3, 4, 5, 6]
+
+            1
+           / \
+          2   3
+         / \  /
+        4   5 6
+
+        

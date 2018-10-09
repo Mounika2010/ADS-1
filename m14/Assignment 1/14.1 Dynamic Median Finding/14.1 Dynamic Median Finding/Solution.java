@@ -8,7 +8,7 @@ public class Solution {
 
         MinPQ<Float> minpq = new MinPQ<Float>(n);
         MaxPQ<Float> maxpq = new MaxPQ<Float>(n);
-        
+
         Float median = 0.0f;
         for (int i = 0; i < n; i++) {
             Float val = scan.nextFloat();
@@ -20,17 +20,21 @@ public class Solution {
 
             if (maxpq.size() - minpq.size() > 1) {
                 maxpq.insert(minpq.delMin());
+                
             }
 
             if (minpq.size() == maxpq.size()) {
-                median = (minpq.min() + maxpq.max())/2;
-            } 
+                median = (minpq.min() + maxpq.max()) / 2;
+                System.out.println(median);
+            }
 
             else if (minpq.size() > maxpq.size()) {
                 median = minpq.min();
+                System.out.println(median);
             }
 
             median = minpq.min();
+            System.out.println(median);
 
         }
 

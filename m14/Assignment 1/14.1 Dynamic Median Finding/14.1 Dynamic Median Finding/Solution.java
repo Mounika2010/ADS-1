@@ -1,6 +1,9 @@
 import java.util.Scanner;
 public class Solution {
 
+    private Solution () {
+
+    }
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -18,8 +21,12 @@ public class Solution {
                 maxpq.insert(val);
             }
 
-            if (maxpq.size() - minpq.size() > 1) {
+            if (minpq.size() - maxpq.size() > 1) {
                 maxpq.insert(minpq.delMin());
+
+            }
+            if (maxpq.size() - minpq.size() > 1) {
+                minpq.insert(maxpq.delMax());
                 
             }
 

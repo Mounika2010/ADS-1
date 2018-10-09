@@ -27,7 +27,7 @@ public class Solution {
             } 
 
             else if (minpq.size() > maxpq.size()) {
-                median = maxpq.max();
+                median = minpq.min();
             }
 
             median = minpq.min();

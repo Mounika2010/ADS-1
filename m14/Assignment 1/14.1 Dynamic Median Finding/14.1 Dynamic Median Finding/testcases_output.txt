@@ -11,9 +11,7 @@ Expected Output:
 5.0
 5.5
 Your Output: 
-Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
-	at MaxPQ.max(MaxPQ.java:116)
-	at Solution.main(Solution.java:30)
+
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -100019,8 +100017,8 @@ Expected Output:
 50402.0
 Your Output: 
 Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
-	at MaxPQ.max(MaxPQ.java:116)
-	at Solution.main(Solution.java:30)
+	at MinPQ.min(MinPQ.java:114)
+	at Solution.main(Solution.java:33)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -200026,8 +200024,8 @@ Expected Output:
 49703.0
 Your Output: 
 Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
-	at MaxPQ.max(MaxPQ.java:116)
-	at Solution.main(Solution.java:30)
+	at MinPQ.min(MinPQ.java:114)
+	at Solution.main(Solution.java:33)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -201032,7 +201030,5 @@ Expected Output:
 51013.0
 51034.0
 Your Output: 
-Exception in thread "main" java.util.NoSuchElementException: Priority queue underflow
-	at MaxPQ.max(MaxPQ.java:116)
-	at Solution.main(Solution.java:30)
+
 ----------------------------------------

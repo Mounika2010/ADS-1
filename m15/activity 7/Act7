@@ -1,1 +1,1 @@
-Sample Table with binary search takes takes N time - complexity for insertion, it takes logN time-complexity for searching unlike ST with sequential search which takes N time for both insertion and searching operations
+Sample Table with binary search takes N time - complexity for insertion, it takes logN time-complexity for searching unlike ST with sequential search which takes N time for both insertion and searching operations

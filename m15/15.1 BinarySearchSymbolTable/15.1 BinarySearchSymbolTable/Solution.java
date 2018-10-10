@@ -23,7 +23,7 @@ public final class Solution {
         BinarySearchST<String, Integer> binarysearch
                                       = new BinarySearchST<String, Integer>();
         String[] token = scan.nextLine().split(" ");
-        for (int i = 0; i < token.length-1; i++) {
+        for (int i = 0; i < token.length; i++) {
             binarysearch.put(token[i], i);
         }
         while (scan.hasNext()) {

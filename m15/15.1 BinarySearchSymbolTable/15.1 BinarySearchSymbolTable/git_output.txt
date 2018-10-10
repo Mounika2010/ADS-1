@@ -1,0 +1,6 @@
+[master 09f014b] "ads1_m15_a1: 5/5 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 5 files changed, 15 insertions(+), 16 deletions(-)
+ rewrite m15/15.1 BinarySearchSymbolTable/15.1 BinarySearchSymbolTable/result/score.json (73%)
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/Mounika2010/ADS-1.git
+   0453c9f..09f014b  master -> master

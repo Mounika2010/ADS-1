@@ -1,0 +1,5 @@
+Starting audit...
+[ERROR] D:\ADS-1\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:26:41: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\ADS-1\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:26:42: '-' is not followed by whitespace. [WhitespaceAround]
+Audit done.
+Checkstyle ends with 2 errors.

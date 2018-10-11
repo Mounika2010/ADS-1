@@ -8,7 +8,7 @@ import java.util.Scanner;
 public final class Solution {
     /**.
      * Constructs the object for solution class
-     * @author Vishwas
+     * @author Mounika2010.
      */
     private Solution() {
 

@@ -2,12 +2,11 @@ import java.util.Scanner;
 public class Solution {
 
 	private Solution() {
-
 	}
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		// BST stockname = new BST();
+		// BST stockname = newsb BST();
 		while (scan.hasNext()) {
 			String[] tokens = scan.nextLine().split(" ");
 			// Query m = new Query();
@@ -15,8 +14,7 @@ public class Solution {
 			
 			Stockdata name = new Stockdata(tokens[0], Double.parseDouble(tokens[1]));
 			System.out.println(name);
-
-
 		}
 	}
 }
+

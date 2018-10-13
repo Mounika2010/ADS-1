@@ -7,10 +7,10 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		int N = scan.nextInt();
+		int n = scan.nextInt();
 		// BST stockname = new BST();
 		while (scan.hasNext()) {
-			String[] tokens = scan.nextLine().split(",");
+			String[] tokens = scan.nextLine().split(" ");
 			// Query m = new Query();
 			// Query n = new Query();
 			

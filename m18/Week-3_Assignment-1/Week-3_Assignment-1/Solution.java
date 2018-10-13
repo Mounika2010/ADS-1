@@ -7,7 +7,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		int n = scan.nextInt();
 		// BST stockname = new BST();
 		while (scan.hasNext()) {
 			String[] tokens = scan.nextLine().split(" ");

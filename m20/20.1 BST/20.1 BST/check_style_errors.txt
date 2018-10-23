@@ -1,0 +1,6 @@
+Starting audit...
+[ERROR] D:\ADS-1\m20\20.1 BST\20.1 BST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\ADS-1\m20\20.1 BST\20.1 BST\Solution.java:6: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\ADS-1\m20\20.1 BST\20.1 BST\Solution.java:16: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 3 errors.

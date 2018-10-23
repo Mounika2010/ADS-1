@@ -51,33 +51,33 @@ public class Stack <E> {
 		return first.data;
 	}
 
-	// public static void main(String[] args) {
-	// 	Stack<String> stack = new Stack<String>();
-	// 	Scanner scan = new Scanner(System.in);
-	// 	while (scan.hasNext()) {
-	// 		String[] words = scan.nextLine().split(" ");
-	// 		switch(words[0]) {
-	// 			case "push":
-	// 			try {
-	// 				stack.push(words[1]);
-	// 			} catch (Exception ex) {
-	// 				System.out.println(ex.getMessage());
-	// 			}
-	// 			break;
-	// 			case "pop":
-	// 			try {
-	// 				String data = stack.pop();
-	// 			} catch (Exception ex) {
-	// 				System.out.println(ex.getMessage());
-	// 			}
-	// 			break;
-	// 			// case "top":
-	// 			// stack.top();
-	// 			case "display":
-	// 			System.out.println(stack);
-	// 			default:
-	// 			break;
-	// 		}
-	// 	}
-	// }
+	public static void main(String[] args) {
+		Stack<String> stack = new Stack<String>();
+		Scanner scan = new Scanner(System.in);
+		while (scan.hasNext()) {
+			String[] words = scan.nextLine().split(" ");
+			switch(words[0]) {
+				case "push":
+				try {
+					stack.push(words[1]);
+				} catch (Exception ex) {
+					System.out.println(ex.getMessage());
+				}
+				break;
+				case "pop":
+				try {
+					String data = stack.pop();
+				} catch (Exception ex) {
+					System.out.println(ex.getMessage());
+				}
+				break;
+				// case "top":
+				// stack.top();
+				case "display":
+				System.out.println(stack);
+				default:
+				break;
+			}
+		}
+	}
 }

@@ -1,0 +1,6 @@
+[master 7df5ce4] "ads1_m12_a1: 0/6 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 4 files changed, 21 insertions(+), 21 deletions(-)
+ rewrite m12/Assignment-1/result/score.json (76%)
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/Mounika2010/ADS-1.git
+   4fa118f..7df5ce4  master -> master

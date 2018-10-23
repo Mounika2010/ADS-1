@@ -168,6 +168,12 @@ class StudentInfo implements Comparable<StudentInfo> {
 		return 0;
 	}
 
+	public int compareReserve(StudentInfo that) {
+		if (reserveCat = "SC") {
+			return 
+		}
+	}
+
 
 
 

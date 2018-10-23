@@ -4,7 +4,7 @@
 import java.util.Scanner;
 /**.
  * 
- * author : Mounika2010.
+ * @author : Mounika2010.
  * class for Solution.
  */
 public final class Solution {

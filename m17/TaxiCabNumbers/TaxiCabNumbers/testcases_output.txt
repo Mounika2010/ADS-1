@@ -1,65 +1,30 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 1729
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: MinPQ
-	at TaxiCabNumbers.findTaxiCabNumbers(TaxiCabNumbers.java:69)
-	at Solution.main(Solution.java:25)
-Caused by: java.lang.ClassNotFoundException: MinPQ
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 2 more
+1729
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 4673088
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: MinPQ
-	at TaxiCabNumbers.findTaxiCabNumbers(TaxiCabNumbers.java:69)
-	at Solution.main(Solution.java:25)
-Caused by: java.lang.ClassNotFoundException: MinPQ
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 2 more
+4673088
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 86488136
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: MinPQ
-	at TaxiCabNumbers.findTaxiCabNumbers(TaxiCabNumbers.java:69)
-	at Solution.main(Solution.java:25)
-Caused by: java.lang.ClassNotFoundException: MinPQ
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 2 more
+86488136
 ----------------------------------------
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 87539319
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: MinPQ
-	at TaxiCabNumbers.findTaxiCabNumbers(TaxiCabNumbers.java:69)
-	at Solution.main(Solution.java:25)
-Caused by: java.lang.ClassNotFoundException: MinPQ
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 2 more
+87539319
 ----------------------------------------
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 143604279
 Your Output: 
-Exception in thread "main" java.lang.NoClassDefFoundError: MinPQ
-	at TaxiCabNumbers.findTaxiCabNumbers(TaxiCabNumbers.java:69)
-	at Solution.main(Solution.java:25)
-Caused by: java.lang.ClassNotFoundException: MinPQ
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-	... 2 more
+143604279
 ----------------------------------------

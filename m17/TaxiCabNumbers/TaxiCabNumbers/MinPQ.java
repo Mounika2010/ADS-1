@@ -111,7 +111,7 @@ public class MinPQ<Key> implements Iterable<Key> {
     private void resize(final int incapacity) {
         assert incapacity > num;
         Key[] temp = (Key[]) new Object[incapacity];
-        for (int i = 1; i < num; i++) {
+        for (int i = 1; i <= num; i++) {
             temp[i] = pq[i];
         }
         pq = temp;

@@ -24,5 +24,5 @@ following M lines represents queries data
 
 Output format:
 Print the respective values for each query
-
+gs
 Note: each test case carry 1 mark.

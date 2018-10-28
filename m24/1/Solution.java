@@ -27,30 +27,3 @@ final class Solution {
         }
     }
 }
-//         int n = sc.nextInt();
-//         sc.nextLine();
-//         for (int i = 0; i <= n; i++) {
-//             String[] inputs = sc.nextLine().split(" ");
-//             switch (inputs[2]) {
-//                 case "1":
-//                 Student s = (hash.get(inputs[1]));
-//                 if (s == null) {
-//                     System.out.println("Student doesn't exists...");
-//                     break;
-//                 }
-//                 System.out.println(s.getname());
-//                 break;
-//                 case "2":
-//                 Student st = hash.get(inputs[1]);
-//                 if (st == null) {
-//                     System.out.println("Student doesn't exists...");
-//                     break;
-//                 }
-//                 System.out.println(st.getmarks());
-//                 break;
-//                 default:
-//                 break;
-//             }
-//         }
-//     }
-//}

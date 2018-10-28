@@ -1,0 +1,3 @@
+Activity 8
+
+From the above methods, weighted quick union path compression is better than remaining methods, because the complexity of this algorithm is log(n). And the trees obtained in this method are less compared to other methods.
